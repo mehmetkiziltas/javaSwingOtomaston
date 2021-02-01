@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://E:/Compressed/jar_dosyaları/aopalliance-1.0.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/bcmail-jdk14-1.38.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/bcmail-jdk14-138.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/bcprov-jdk14-1.38.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/bcprov-jdk14-138.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/bctsp-jdk14-1.38.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/castor-core-1.3.3.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/castor-xml-1.3.3.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/commons-beanutils-1.9.0.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/commons-collections-3.2.2.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/commons-digester-2.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/commons-lang-2.6.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/commons-logging-1.1.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/core-2.3.0.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/ecj-4.3.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/icu4j-57.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/itext-2.1.7.js5.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jackson-annotations-2.1.4.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jackson-core-2.1.4.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jackson-databind-2.1.4.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jakarta-regexp-1.4.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jasperreports-6.3.0.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/javax.inject-1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jcommon-1.0.23.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/jfreechart-1.0.19.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/lucene-analyzers-common-4.5.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/lucene-core-4.5.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/lucene-queries-4.5.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/lucene-queryparser-4.5.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/lucene-sandbox-4.5.1.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/olap4j-0.9.7.309-JS-3.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-aop-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-asm-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-beans-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-context-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-core-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/spring-expression-3.0.6.RELEASE.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/stax-1.2.0.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/stax-api-1.0-2.jar!/" />
+      <root url="jar://E:/Compressed/jar_dosyaları/stax-api-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

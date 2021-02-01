@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="musteri" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="41fad643-3bc2-4c6c-92ba-002a835a5fc4">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="musteri_Data_Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM javaileotomasyon.musteriler]]>
+	</queryString>
+	<field name="ID" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="AD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="AD"/>
+		<property name="com.jaspersoft.studio.field.label" value="AD"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SOYAD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="SOYAD"/>
+		<property name="com.jaspersoft.studio.field.label" value="SOYAD"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TELEFON1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TELEFON1"/>
+		<property name="com.jaspersoft.studio.field.label" value="TELEFON1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TELEFON2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TELEFON2"/>
+		<property name="com.jaspersoft.studio.field.label" value="TELEFON2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TC" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TC"/>
+		<property name="com.jaspersoft.studio.field.label" value="TC"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MAIL" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MAIL"/>
+		<property name="com.jaspersoft.studio.field.label" value="MAIL"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="IL" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="IL"/>
+		<property name="com.jaspersoft.studio.field.label" value="IL"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ILCE" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ILCE"/>
+		<property name="com.jaspersoft.studio.field.label" value="ILCE"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ADRES" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ADRES"/>
+		<property name="com.jaspersoft.studio.field.label" value="ADRES"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="VERGIDAIRE" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="VERGIDAIRE"/>
+		<property name="com.jaspersoft.studio.field.label" value="VERGIDAIRE"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="musteriler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="150" y="10" width="189" height="52" uuid="34f5190d-5ca3-4819-9d0a-f36c190bf604"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="18"/>
+				</textElement>
+				<text><![CDATA[Müşteri Raporları]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="55" height="30" uuid="da3600d6-b218-4743-9a33-2942ce5e4957">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="04ca599a-c17a-41c6-8e8b-a06b640d8090"/>
+				</reportElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="55" y="0" width="50" height="30" uuid="4a654ac4-84dc-4191-aaad-b88e6314fecc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="903b5db5-368c-447f-9824-0a349cdcfa48"/>
+				</reportElement>
+				<text><![CDATA[AD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="105" y="0" width="50" height="30" uuid="d9ae3a43-a591-45a1-bef5-eca4d12b7451">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="db267471-374e-43c4-89c4-a22ae16a6564"/>
+				</reportElement>
+				<text><![CDATA[SOYAD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="155" y="0" width="50" height="30" uuid="5a366492-ab5c-43b8-9e83-65a78f6488a9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d87354e-dbf0-42f6-b8d9-771ccfb9b486"/>
+				</reportElement>
+				<text><![CDATA[TELEFON1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="205" y="0" width="50" height="30" uuid="5be64423-aad1-43f7-8ad6-f472a3c4f247">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a3ad30df-fe45-4997-9038-fb251a627043"/>
+				</reportElement>
+				<text><![CDATA[TELEFON2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="255" y="0" width="50" height="30" uuid="18719401-238d-4162-bb91-ff705b66bc1b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5798dc58-c3ef-4388-bdff-ea806fc736a5"/>
+				</reportElement>
+				<text><![CDATA[TC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="305" y="0" width="50" height="30" uuid="e9d364b5-4ced-44e5-bf15-be8536b4bfdc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e40554ef-6770-431b-989a-5533d1e95908"/>
+				</reportElement>
+				<text><![CDATA[MAIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="0" width="50" height="30" uuid="75062767-dee1-4682-ba2c-71da42969480">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2e419298-7376-477c-9b16-3acdfcd50e6d"/>
+				</reportElement>
+				<text><![CDATA[IL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="405" y="0" width="50" height="30" uuid="6723828b-0d4f-4e3f-a40a-c47ed5a196bb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ed4d4950-535f-4a0c-ab9c-b4e77d56044f"/>
+				</reportElement>
+				<text><![CDATA[ILCE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="0" width="50" height="30" uuid="a4a8fa35-f9a6-432d-a24f-8eb714d35d18">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8be37251-ea89-43a6-aa79-093b17bea6a4"/>
+				</reportElement>
+				<text><![CDATA[ADRES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="505" y="0" width="50" height="30" uuid="b2c4204e-91b2-44d9-b08d-cbb75bbea537">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7146a793-c82a-4c37-839f-60f7d42de8f4"/>
+				</reportElement>
+				<text><![CDATA[VERGIDAIRE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="55" height="30" uuid="dddf46f2-b611-49b1-9279-07212ff78770">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="04ca599a-c17a-41c6-8e8b-a06b640d8090"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="55" y="0" width="50" height="30" uuid="fdc925d9-c4f9-46c7-b271-313712e356bc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="903b5db5-368c-447f-9824-0a349cdcfa48"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{AD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="105" y="0" width="50" height="30" uuid="48c5e23c-44be-4d38-9dd8-464fbe8bb983">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="db267471-374e-43c4-89c4-a22ae16a6564"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{SOYAD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="155" y="0" width="50" height="30" uuid="28e7562d-5b43-4423-bf77-7bf294973f7f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d87354e-dbf0-42f6-b8d9-771ccfb9b486"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TELEFON1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="205" y="0" width="50" height="30" uuid="0570fb0d-6c36-4237-893f-823fdb559ad5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a3ad30df-fe45-4997-9038-fb251a627043"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TELEFON2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="0" width="50" height="30" uuid="79ca86d0-954f-4d15-a46e-47ca4875d1d5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5798dc58-c3ef-4388-bdff-ea806fc736a5"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="305" y="0" width="50" height="30" uuid="748e33ae-b8d4-4209-ab79-742d26be740d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e40554ef-6770-431b-989a-5533d1e95908"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{MAIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="50" height="30" uuid="cb1e86c9-d539-442c-a4ef-aac38b6d2a5f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2e419298-7376-477c-9b16-3acdfcd50e6d"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{IL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="405" y="0" width="50" height="30" uuid="36643cbc-d798-448d-85b3-f4f6fa091d69">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ed4d4950-535f-4a0c-ab9c-b4e77d56044f"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ILCE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="50" height="30" uuid="f31460fd-5cdb-4485-bd0e-728e30169d96">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8be37251-ea89-43a6-aa79-093b17bea6a4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ADRES}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="505" y="0" width="50" height="30" uuid="04abab5e-cbb3-424b-9ebe-f9adb145fcb2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7146a793-c82a-4c37-839f-60f7d42de8f4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{VERGIDAIRE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

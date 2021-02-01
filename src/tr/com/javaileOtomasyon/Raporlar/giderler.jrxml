@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="giderler" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="761a13a1-e7a4-4d16-bd4d-c27af39eadb7">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="musteri_Data_Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM javaileotomasyon.giderler]]>
+	</queryString>
+	<field name="ID" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="YIL" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="YIL"/>
+		<property name="com.jaspersoft.studio.field.label" value="YIL"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="AY" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="AY"/>
+		<property name="com.jaspersoft.studio.field.label" value="AY"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ELEKTRIK" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="ELEKTRIK"/>
+		<property name="com.jaspersoft.studio.field.label" value="ELEKTRIK"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SU" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="SU"/>
+		<property name="com.jaspersoft.studio.field.label" value="SU"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="DOGALGAZ" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="DOGALGAZ"/>
+		<property name="com.jaspersoft.studio.field.label" value="DOGALGAZ"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="INTERNET" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="INTERNET"/>
+		<property name="com.jaspersoft.studio.field.label" value="INTERNET"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MAASLAR" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="MAASLAR"/>
+		<property name="com.jaspersoft.studio.field.label" value="MAASLAR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="EKSTRA" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="EKSTRA"/>
+		<property name="com.jaspersoft.studio.field.label" value="EKSTRA"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="NOTLAR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOTLAR"/>
+		<property name="com.jaspersoft.studio.field.label" value="NOTLAR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="giderler"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="ID">
+		<groupExpression><![CDATA[$F{ID}]]></groupExpression>
+	</group>
+	<group name="YIL">
+		<groupExpression><![CDATA[$F{YIL}]]></groupExpression>
+	</group>
+	<group name="AY">
+		<groupExpression><![CDATA[$F{AY}]]></groupExpression>
+	</group>
+	<group name="ELEKTRIK">
+		<groupExpression><![CDATA[$F{ELEKTRIK}]]></groupExpression>
+	</group>
+	<group name="SU">
+		<groupExpression><![CDATA[$F{SU}]]></groupExpression>
+	</group>
+	<group name="DOGALGAZ">
+		<groupExpression><![CDATA[$F{DOGALGAZ}]]></groupExpression>
+	</group>
+	<group name="INTERNET">
+		<groupExpression><![CDATA[$F{INTERNET}]]></groupExpression>
+	</group>
+	<group name="MAASLAR">
+		<groupExpression><![CDATA[$F{MAASLAR}]]></groupExpression>
+	</group>
+	<group name="EKSTRA">
+		<groupExpression><![CDATA[$F{EKSTRA}]]></groupExpression>
+	</group>
+	<group name="NOTLAR">
+		<groupExpression><![CDATA[$F{NOTLAR}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="40" width="190" height="30" uuid="7efcf9e3-3e8c-4cd3-ad18-8f2d5db313f7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="18"/>
+				</textElement>
+				<text><![CDATA[Gider Raporları]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="60" height="30" uuid="2b00ae29-c430-4861-a740-b10cb58802d9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6238f9b7-5e56-4d22-beeb-508d4a4513e4"/>
+				</reportElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="0" width="55" height="30" uuid="6cb12d94-626f-443c-aa96-efd4db0a802f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="85ce4af7-99a3-4396-b9ec-b8ee9aba73a0"/>
+				</reportElement>
+				<text><![CDATA[YIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="115" y="0" width="55" height="30" uuid="f1b08a17-221b-40f3-b455-66e656e14933">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9af48203-3291-4413-bc4e-29c3399b4db2"/>
+				</reportElement>
+				<text><![CDATA[AY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="0" width="55" height="30" uuid="6bffec42-003a-4ddf-b68d-de018414f653">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="50e632a9-5d17-4d49-ba24-13415d978955"/>
+				</reportElement>
+				<text><![CDATA[ELEKTRIK]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="225" y="0" width="55" height="30" uuid="94f2797b-0185-4b73-81a3-2414b59fca19">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="19192108-461d-447c-b5d7-a5894791b19c"/>
+				</reportElement>
+				<text><![CDATA[SU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="0" width="55" height="30" uuid="e1055e44-21e9-4265-b318-ea69c7c0bcfd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8069132a-e3f9-4434-915a-2f05f9537a81"/>
+				</reportElement>
+				<text><![CDATA[DOGALGAZ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="55" height="30" uuid="aaafd3aa-895b-4d46-9cba-8ff3a2f9b617">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27bd0ba0-db76-411c-a95f-1ffe89d8a262"/>
+				</reportElement>
+				<text><![CDATA[INTERNET]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="0" width="55" height="30" uuid="81429486-da5f-4604-927d-d6a9e7de0a0e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ba45c5b-61f5-45ca-8e27-7112a4ea9f44"/>
+				</reportElement>
+				<text><![CDATA[MAASLAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="445" y="0" width="55" height="30" uuid="cebc5aa6-068f-41a0-89d6-ba67d75016bd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e0f5aadb-5f01-4486-a16e-8dc20b142f73"/>
+				</reportElement>
+				<text><![CDATA[EKSTRA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="0" width="55" height="30" uuid="2233e706-751a-489a-b2d9-7ff907fcfcaa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8ea305c8-34a4-41bf-ab71-47c89524bdb1"/>
+				</reportElement>
+				<text><![CDATA[NOTLAR]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="60" height="30" uuid="a566db11-ddaa-4e9d-8e58-44052e422bd7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6238f9b7-5e56-4d22-beeb-508d4a4513e4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="0" width="55" height="30" uuid="74379f05-5b4a-4b09-a8ee-17b43eca32af">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="85ce4af7-99a3-4396-b9ec-b8ee9aba73a0"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{YIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="115" y="0" width="55" height="30" uuid="64d76d73-32d7-4db6-a241-5f4edba258f4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9af48203-3291-4413-bc4e-29c3399b4db2"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{AY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="170" y="0" width="55" height="30" uuid="bb4602fb-a690-41e0-aa8d-d7f6daefdcb1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="50e632a9-5d17-4d49-ba24-13415d978955"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ELEKTRIK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="0" width="55" height="30" uuid="4a264479-28d3-4a75-a3dd-38c80cd89e1a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="19192108-461d-447c-b5d7-a5894791b19c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{SU}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="0" width="55" height="30" uuid="8eb6f01a-4cdf-4b15-aee6-28a75a3fe3d6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8069132a-e3f9-4434-915a-2f05f9537a81"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{DOGALGAZ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="335" y="0" width="55" height="30" uuid="939c4d9d-e4ea-4104-a7fa-df1e57cb57b7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27bd0ba0-db76-411c-a95f-1ffe89d8a262"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{INTERNET}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="0" width="55" height="30" uuid="5956b3fe-15ff-43ea-828c-b13b7f41c244">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ba45c5b-61f5-45ca-8e27-7112a4ea9f44"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{MAASLAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="445" y="0" width="55" height="30" uuid="ad966c49-3c27-4a62-a819-501531092eb8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e0f5aadb-5f01-4486-a16e-8dc20b142f73"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{EKSTRA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="0" width="55" height="30" uuid="09da8c6a-1c37-43a8-b602-0c896ff268b5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8ea305c8-34a4-41bf-ab71-47c89524bdb1"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{NOTLAR}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
