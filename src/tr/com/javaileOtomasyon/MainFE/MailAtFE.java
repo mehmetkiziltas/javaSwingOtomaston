@@ -88,7 +88,7 @@ public class MailAtFE extends JDialog implements FeInterfaces {
                 });
                 Message message = new MimeMessage(session);
                 try {
-                    message.setFrom(new InternetAddress("memoo13kiziltas@gmail.com"));
+                    message.setFrom(new InternetAddress(""));
                     message.setRecipients(Message.RecipientType.TO,InternetAddress.parse(MailAdresiBox.getText()));
                     message.setSubject(MailKonuBox.getText());
                     message.setText(MailMesajBox.getText());
